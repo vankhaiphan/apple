@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-romantic-50: #fdf4f5;
+  --color-romantic-100: #fce8eb;
+  --color-romantic-200: #f9d0d7;
+  --color-romantic-300: #f5a8b8;
+  --color-romantic-400: #ef7895;
+  --color-romantic-500: #e54d76;
+  --color-romantic-600: #d02e5f;
+  --color-romantic-700: #ae204e;
+  --color-romantic-800: #911d46;
+  --color-romantic-900: #7b1c40;
+  
+  --font-family-serif: 'Crimson Text', serif;
+  --font-family-sans: 'Inter', sans-serif;
+  
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-glow: glow 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font-family-sans);
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  color: #fdf4f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-romantic {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, var(--color-romantic-300), var(--color-romantic-400), var(--color-romantic-500));
+}
+
+.glow-text {
+  text-shadow: 
+    0 0 10px rgba(245, 168, 184, 0.5),
+    0 0 20px rgba(245, 168, 184, 0.3),
+    0 0 30px rgba(245, 168, 184, 0.2);
+}
+
+.paper-texture {
+  background: linear-gradient(135deg, #fdfbf7 0%, #f9f6f0 100%);
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

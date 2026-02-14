@@ -1,0 +1,136 @@
+{
+  "letters": [
+    {
+      "id": "mem-001",
+      "branch": "memories",
+      "title": "My Dearest",
+      "message": "Do you remember the first time we met? The way the sunlight caught your smile, the sound of your laugh... That moment changed everything for me.\n\nI knew then that I wanted to know every story behind those eyes. Every dream, every fear, every secret whisper of your heart.\n\nSome say love arrives quietly, like morning mist. But for me, it arrived like thunder — sudden, overwhelming, and impossible to ignore. And you were there, at the center of that storm, calm and beautiful.\n\nI write these lines not because ordinary messages are insufficient, but because there are things my heart wants to say more slowly, more gently, like a proper letter.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [-1.1, 3.8, 0.35],
+      "unlocked": true,
+      "unlockDate": "2024-01-14",
+      "date": "2024-01-14"
+    },
+    {
+      "id": "adm-001",
+      "branch": "admiration",
+      "title": "Your Strength",
+      "message": "I admire how you face every challenge with grace. Your strength doesn't come from never falling, but from rising every single time. You inspire me to be better, to do better, every day.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [1.2, 3.9, 0.25],
+      "unlocked": true,
+      "unlockDate": "2024-02-01",
+      "date": "2024-02-01"
+    },
+    {
+      "id": "grat-001",
+      "branch": "gratitude",
+      "title": "Thank You For Being You",
+      "message": "Thank you for your patience when I'm difficult. Thank you for your understanding when I'm lost. Thank you for being exactly who you are, because who you are is absolutely wonderful.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [0.15, 4.1, 1.6],
+      "unlocked": true,
+      "unlockDate": "2024-02-14",
+      "date": "2024-02-14"
+    },
+    {
+      "id": "dream-001",
+      "branch": "dreams",
+      "title": "Our Future Together",
+      "message": "I dream of mornings waking up next to you. Of building a home filled with laughter and love. Of growing old together, still holding hands, still finding new reasons to smile at each other.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [-0.1, 3.9, -1.7],
+      "unlocked": true,
+      "unlockDate": "2024-03-01",
+      "date": "2024-03-01"
+    },
+    {
+      "id": "unsaid-001",
+      "branch": "unsaid",
+      "title": "What I've Never Told You",
+      "message": "Sometimes I watch you when you're not looking, and I'm overwhelmed by how lucky I am. There are moments when you take my breath away without even trying. I love you more than words can express, but I'll keep trying anyway.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [1.4, 3.9, 1.4],
+      "unlocked": true,
+      "unlockDate": "2024-03-15",
+      "date": "2024-03-15"
+    },
+    {
+      "id": "mem-002",
+      "branch": "memories",
+      "title": "That Rainy Evening",
+      "message": "Remember when we got caught in the rain and just danced instead of running? That's when I realized: with you, even storms become beautiful moments. You turn ordinary days into extraordinary memories.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [-1.5, 3.9, -1.4],
+      "unlocked": true,
+      "unlockDate": "2024-04-01",
+      "date": "2024-04-01"
+    },
+    {
+      "id": "adm-002",
+      "branch": "admiration",
+      "title": "Your Kindness",
+      "message": "The way you treat everyone with kindness, from strangers to loved ones, shows the beauty of your soul. You make the world softer, gentler, better. That's the kind of person I want to be.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [-1.4, 3.65, 0.7],
+      "unlocked": true,
+      "unlockDate": "2024-04-20",
+      "date": "2024-04-20"
+    },
+    {
+      "id": "future-001",
+      "branch": "dreams",
+      "title": "Forever Promise",
+      "message": "I promise to love you on your best days and your worst. To choose you every single day, in every single way. To build a love that grows deeper with time, stronger with challenges, and sweeter with every shared moment.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [1.35, 3.7, -0.6],
+      "unlocked": false,
+      "unlockDate": "2024-12-25",
+      "date": "2024-12-25"
+    },
+    {
+      "id": "unsaid-002",
+      "branch": "unsaid",
+      "title": "My Secret Wonder",
+      "message": "I still get butterflies when you text me. After all this time, you still make my heart race. Sometimes I can't believe this is real, that someone as wonderful as you chose to love someone like me.",
+      "audioFile": "/audio/everytime.mp3",
+      "position": [1.3, 3.6, -1.3],
+      "unlocked": false,
+      "unlockDate": "2024-06-01",
+      "date": "2024-06-01"
+    }
+  ],
+  "branches": {
+    "memories": {
+      "name": "Memories",
+      "color": "#dc2626",
+      "description": "Sweet red apples of moments we've shared"
+    },
+    "admiration": {
+      "name": "Admiration",
+      "color": "#ea580c",
+      "description": "Warm orange apples of things I admire"
+    },
+    "gratitude": {
+      "name": "Gratitude",
+      "color": "#eab308",
+      "description": "Golden apples of thankfulness"
+    },
+    "dreams": {
+      "name": "Dreams",
+      "color": "#16a34a",
+      "description": "Green apples of our future together"
+    },
+    "unsaid": {
+      "name": "Things I've Never Said",
+      "color": "#c026d3",
+      "description": "Magical purple apples from my heart"
+    }
+  },
+  "settings": {
+    "treeGrowthDuration": 3000,
+    "fruitPulseDuration": 4000,
+    "envelopeTransformDuration": 2000,
+    "particleCount": 200
+  }
+}
