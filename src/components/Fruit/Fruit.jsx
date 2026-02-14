@@ -170,10 +170,16 @@ export default function Fruit({ letter }) {
   const setHoveredFruit = useStore((state) => state.setHoveredFruit);
   const introComplete = useStore((state) => state.introComplete);
 
-  // Check if letter is unlocked
-  const currentDate = new Date();
-  const unlockDate = new Date(letter.unlockDate);
-  const isUnlocked = letter.unlocked && currentDate >= unlockDate;
+  // Check if letter is unlocked (local timezone-aware: unlocks at 00:00:01 local time)
+  const getLocalDateTime = (dateString, timeString = "00:00:01") => {
+    const [year, month, day] = dateString.split('-').map(Number);
+    const [hours, minutes, seconds] = timeString.split(':').map(Number);
+    return new Date(year, month - 1, day, hours, minutes, seconds || 0);
+  };
+  
+  const currentLocalDateTime = new Date();
+  const unlockLocalDateTime = getLocalDateTime(letter.unlockDate);
+  const isUnlocked = letter.unlocked && currentLocalDateTime >= unlockLocalDateTime;
 
   // Get apple colors
   const appleColors = APPLE_COLORS[letter.branch] || APPLE_COLORS.memories;
