@@ -91,13 +91,13 @@
     {
       "id": "mem-004",
       "branch": "memories",
-      "title": "That Rainy Evening",
-      "message": "Remember when we got caught in the rain and just danced instead of running? That's when I realized: with you, even storms become beautiful moments. You turn ordinary days into extraordinary memories.",
-      "audioFile": "audio/background.mp3",
+      "title": "Ngày cuối năm",
+      "message": "Gửi chúng ta ở tương lai,\n \nVậy là đã đến ngày cuối cùng của năm.\n \n29 Tết giống như một bức thư\n Mà hiện tại đang viết cho chúng ta của năm mới.\n \nKhông phải để kể lại những gì đã qua,\n Mà để nhắn nhủ rằng:\n \nKhi bước sang một chương mới,\n Mong chúng ta sẽ dịu dàng hơn với chính mình,\n Kiên nhẫn hơn với nhau,\n Và đủ vững vàng để cùng đi tiếp.\n \nĐứng ở ranh giới giữa cũ và mới,\n Điều quan trọng\n Không phải là năm vừa rồi đã trải qua như thế nào,\n Mà là cuối cùng thì\n Ta vẫn còn ở đây,\n Vẫn chọn đồng hành.\n \nMột năm nay,\n Có lẽ không phải lúc nào cũng dễ dàng.\n Đã có những ngày ta vui vẻ cười nói,\n Cũng có những lúc ta im lặng bên nhau.\n \nSau tất cả,\n Điều khiến anh thấy biết ơn nhất,\n Không phải là những điều hoàn hảo đã qua,\n Mà là việc chúng ta vẫn còn ở đây\n Vẫn nghĩ về nhau,\n Vẫn bước cùng nhau theo cách của riêng mình.\n \nNăm mới sắp đến rồi.\n \nAnh không mong điều gì quá lớn lao.\n Chỉ mong rằng trong năm tới,\n Em sẽ nhẹ lòng hơn năm cũ,\n Những điều chưa trọn vẹn sẽ dần khép lại,\n Và những điều tốt đẹp sẽ chậm rãi mở ra.\n \nKhông cần rực rỡ,\n Chỉ cần bình an.\n \nCảm ơn em vì đã ở bên anh trong năm vừa qua.\n \nGửi chúng ta của năm mới,\n Mong rằng khi đọc lại những dòng này,\n Ta vẫn đang ở bên nhau,\n Như cách đã đi qua năm cũ.\n \nChúc bé một ngày cuối năm thật ấm áp,\n \nThương em,\n Chè bống",
+      "audioFile": "audio/perfect.mp3",
       "position": [-1.5, 3.9, -1.4],
-      "unlocked": false,
-      "unlockDate": "2026-12-01",
-      "date": "2026-12-01"
+      "unlocked": true,
+      "unlockDate": "2026-02-16",
+      "date": "2026-02-16"
     },
     {
       "id": "adm-001",
